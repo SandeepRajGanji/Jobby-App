@@ -1,0 +1,31 @@
+.not-found-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 90vh;
+  background-color: #000000;
+  font-family: 'Roboto';
+}
+.not-found-heading {
+  font-size: 30px;
+  font-weight: 500;
+  color: #ffffff;
+}
+.not-found-description {
+  font-size: 16px;
+
+  color: #f1f5f9;
+  margin-top: 0px;
+}
+@media screen and (max-width: 576px) {
+  .not-found-heading {
+    font-size: 24px;
+  }
+  .not-found-description {
+    font-size: 14px;
+    width: 300px;
+    text-align: center;
+  }
+}

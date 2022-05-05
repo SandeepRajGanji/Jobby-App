@@ -1,0 +1,134 @@
+.jobs-bg-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000;
+  min-height: 90vh;
+}
+.jobs-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 1140px;
+}
+@media screen and (max-width: 576px) {
+  .jobs-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 576px;
+  }
+}
+@media screen and (min-width: 577px) {
+  .left-section {
+    display: flex;
+    flex-direction: column;
+    color: #f1f5f9;
+    width: 35%;
+    padding: 20px;
+  }
+  .right-section {
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    margin-left: 10px;
+    min-height: 90vh;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .right-section {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+  }
+  .left-section {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    color: #f1f5f9;
+    width: 90%;
+  }
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  border: 1px solid #f1f5f9;
+  border-radius: 5px;
+  width: 250px;
+  margin-left: 10px;
+}
+.search {
+  outline: none;
+  color: #f1f5f9;
+  background-color: transparent;
+  border: none;
+  padding: 5px 10px 5px 10px;
+  width: 250px;
+}
+.search-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.search-icon {
+  color: white;
+}
+.jobs-list-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  list-style: none;
+  width: 100%;
+}
+.loader {
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.filters-container {
+  border-top: 1px solid #f1f5f9;
+  margin-top: 25px;
+  margin-bottom: -20px;
+}
+.filters-heading {
+  font-size: 20px;
+}
+.empType-list {
+  padding: 0px;
+  list-style: none;
+}
+.failure-view-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  color: #f1f5f9;
+  min-height: 50vh;
+  margin-bottom: 50px;
+}
+.failure-image {
+  margin-top: 20px;
+  width: 250px;
+}
+.no-jobs-view-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #f1f5f9;
+  margin-bottom: 50px;
+}
+.no-jobs-image {
+  width: 300px;
+  margin-top: 40px;
+}
+.no-jobs-heading {
+  font-size: 24px;
+  margin-bottom: 0px;
+}

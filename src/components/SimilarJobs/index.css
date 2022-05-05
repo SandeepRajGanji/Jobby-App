@@ -1,0 +1,21 @@
+.similar-job-card {
+  display: flex;
+  flex-direction: column;
+  background-color: #272727;
+  padding: 20px;
+  border-radius: 10px;
+  color: #f1f5f9;
+  font-family: 'Roboto';
+  width: 320px;
+  margin-bottom: 20px;
+}
+@media screen and (max-width: 576px) {
+  .similar-job-card {
+    width: 100%;
+    max-width: 576px;
+  }
+}
+.similar-job-location-type-container {
+  display: flex;
+  align-items: center;
+}
