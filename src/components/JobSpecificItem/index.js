@@ -46,7 +46,7 @@ class JobSpecificItem extends Component {
     }
     const response = await fetch(apiUrl, options)
 
-    if (response.status === 200) {
+    if (response.ok === true) {
       const data = await response.json()
 
       const modifiedData = {
