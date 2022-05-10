@@ -110,6 +110,9 @@ export default class Login extends Component {
           <button type="submit" className="login">
             Login
           </button>
+          <p>
+            Username: rahul <br /> Password: rahul@2021
+          </p>
           {errorMsg ? <p className="error-msg">*{showErrorMsg}</p> : ''}
         </form>
       </div>
